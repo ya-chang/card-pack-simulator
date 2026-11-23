@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 180 180">
+  <defs>
+    <linearGradient id="glass" x2=".85" y2="1">
+      <stop stop-color="#ffe7f8"/>
+      <stop offset=".55" stop-color="#f78bcf"/>
+      <stop offset="1" stop-color="#bd66e9"/>
+    </linearGradient>
+  </defs>
+  <g fill="none" stroke="#ffabed" stroke-linecap="round">
+    <circle cx="90" cy="88" r="69" opacity=".28"/>
+    <circle cx="90" cy="88" r="58" stroke-dasharray="2 6" opacity=".52"/>
+    <path d="M20 103C9 80 138 33 158 47s-18 40-74 63c-27 11-57 13-64-7Z" opacity=".5"/>
+  </g>
+  <g transform="rotate(-13 90 90)" stroke-linejoin="round">
+    <rect x="79" y="80" width="22" height="73" rx="10" fill="#2a1a3d" stroke="#e9b2fd" stroke-width="2.6"/>
+    <path d="M82 95h16m-16 45h16" stroke="#aa78bf" stroke-width="2"/>
+    <circle cx="90" cy="118" r="3.4" fill="#f7b0f1"/>
+    <path d="M90 96 59 68c-19-22 10-45 31-23 21-22 50 1 31 23Z" fill="url(#glass)" stroke="#ffe8fb" stroke-width="3"/>
+    <path d="M64 58c2-7 12-11 19-5" fill="none" stroke="#fff6ff" stroke-width="3.4" stroke-linecap="round"/>
+    <path d="M89 54v23m-11-11h23" stroke="#fff2fa" stroke-width="1.45" opacity=".7"/>
+  </g>
+  <path d="M30 40l2.8 8.2 8.2 2.8-8.2 2.8-2.8 8.2-2.8-8.2-8.2-2.8 8.2-2.8zm111 70 2.4 6.6 6.6 2.4-6.6 2.4-2.4 6.6-2.4-6.6-6.6-2.4 6.6-2.4z" fill="#ffd1f2"/>
+</svg>

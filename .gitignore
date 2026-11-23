@@ -1,0 +1,18 @@
+# macOS & Editor
+.DS_Store
+**/.DS_Store
+
+# Dependencies & Temp
+node_modules/
+tmp/
+_raw-*
+*.log
+
+# Local photo sources and upstream demonstration artwork
+/assets/cards/originals/
+/assets/brand/
+
+# Local execution records, QA captures, exported videos, and workspace-only metadata
+runs/
+docs/
+project.yaml
