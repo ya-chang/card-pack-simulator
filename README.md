@@ -18,7 +18,7 @@
 需要 Node.js 18 或更新版本。克隆仓库后进入项目目录，直接启动内置静态服务，无需安装任何依赖。
 
 ```bash
-git clone https://github.com/ya-chang/kpop-card.git
+git clone https://github.com/ya-chang/card-pack-simulator.git
 cd KPOP-card
 npm start
 ```

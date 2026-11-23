@@ -20,9 +20,9 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/ya-chang/kpop-card.git"
+    "url": "https://github.com/ya-chang/card-pack-simulator.git"
   },
-  "homepage": "https://github.com/ya-chang/kpop-card#readme",
+  "homepage": "https://github.com/ya-chang/card-pack-simulator#readme",
   "engines": {
     "node": ">=18.0.0"
   }
