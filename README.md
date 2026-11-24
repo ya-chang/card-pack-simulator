@@ -25,6 +25,8 @@ npm start
 
 打开 [http://127.0.0.1:4180/](http://127.0.0.1:4180/)。如果端口已被占用，以终端输出的地址为准。
 
+也可以直接访问线上演示：[https://ya-chang.github.io/card-pack-simulator/](https://ya-chang.github.io/card-pack-simulator/)
+
 ## 🎮 操作指南
 
 1. **撕包**：按住卡包顶部封口，向左右任一方向横拖。也可以直接点按封口拆包。
