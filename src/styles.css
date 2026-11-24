@@ -1100,7 +1100,7 @@ html[data-studio-light="day"] .icon-darkroom {
   box-shadow: 0 28px 46px -14px rgba(0, 0, 0, 0.68);
 }
 
-/* K-pop 主题卡背 */
+/* 主题卡背 */
 .card-back {
   transform: rotateY(180deg) translateZ(5.2px);
   backface-visibility: hidden;

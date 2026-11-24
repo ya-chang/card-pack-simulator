@@ -1,17 +1,17 @@
 {
-  "name": "kpop-card",
+  "name": "card-pack-simulator",
   "version": "1.0.0",
   "private": true,
-  "description": "K-pop photocard pack simulator with interactive foil tearing, holographic portraits, and a local collection binder.",
+  "description": "Card pack simulator with interactive foil tearing, holographic portraits, and a local collection binder.",
   "type": "module",
   "scripts": {
     "start": "node server.mjs",
     "generate-assets": "node scripts/generate-assets.mjs"
   },
   "keywords": [
-    "kpop",
-    "photocard",
     "card-pack",
+    "gacha",
+    "photocard",
     "holographic",
     "vanilla-javascript",
     "web-audio"

@@ -1027,7 +1027,7 @@ const smoothStep = (a, b, x) => {
 function buildCardBackMarkup({ art, accent, base }) {
   return (
     `<div class="card-back" aria-hidden="true" style="--back-accent:${accent};--back-base:${base}">` +
-    `<span class="card-back-top">${PACK_BRAND.logo} / K-POP</span>` +
+    `<span class="card-back-top">${PACK_BRAND.logo} / CARD PACK</span>` +
     `<img class="card-back-art" src="${art}" alt="">` +
     `</div>`
   );
