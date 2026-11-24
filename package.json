@@ -1,0 +1,29 @@
+{
+  "name": "kpop-card",
+  "version": "1.0.0",
+  "private": true,
+  "description": "K-pop photocard pack simulator with interactive foil tearing, holographic portraits, and a local collection binder.",
+  "type": "module",
+  "scripts": {
+    "start": "node server.mjs",
+    "generate-assets": "node scripts/generate-assets.mjs"
+  },
+  "keywords": [
+    "kpop",
+    "photocard",
+    "card-pack",
+    "holographic",
+    "vanilla-javascript",
+    "web-audio"
+  ],
+  "author": "SimpleMkt",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ya-chang/card-pack-simulator.git"
+  },
+  "homepage": "https://github.com/ya-chang/card-pack-simulator#readme",
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
