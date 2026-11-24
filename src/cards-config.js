@@ -3,7 +3,7 @@
  *
  * 自定义卡面说明：
  * 1. 仅替换角色图：修改 `character.image` 指向你的透明 PNG/WebP；不需要表情绑定时设 `character.rigged = false`。
- * 2. 整张卡面直出：在卡片对象上增加 `fullArtImage: 'assets/your-card.png'`，保留全息闪膜、卡背悬念翻牌与厚度。
+ * 2. 整张卡面直出：在卡片对象上增加 `fullArtImage: 'assets/your-card.webp'`，保留全息闪膜、卡背悬念翻牌与厚度。
  *    `fullArtMask` 指向与照片对齐的人物透明遮罩时，光栅只在人物身后可见。
  *    加上 `hideFaceLabels: true` 可隐藏卡面徽标，透明图片区域由 `frameBg` 托底。
  */
@@ -131,7 +131,7 @@ const cards = [
   {
     id: 'card-034',
     name: '收藏 034',
-    fullArtImage: 'assets/cards/34.png',
+    fullArtImage: 'assets/cards/34.webp',
     hideFaceLabels: true,
     rarity: 'common',
     rarityMark: '◆',
@@ -145,7 +145,7 @@ const cards = [
   {
     id: 'card-068',
     name: '收藏 068',
-    fullArtImage: 'assets/cards/68.png',
+    fullArtImage: 'assets/cards/68.webp',
     hideFaceLabels: true,
     rarity: 'common',
     rarityMark: '◆',
@@ -159,7 +159,7 @@ const cards = [
   {
     id: 'card-079',
     name: '收藏 079',
-    fullArtImage: 'assets/cards/79.png',
+    fullArtImage: 'assets/cards/79.webp',
     hideFaceLabels: true,
     rarity: 'common',
     rarityMark: '◆',
@@ -173,7 +173,7 @@ const cards = [
   {
     id: 'card-029',
     name: '收藏 029',
-    fullArtImage: 'assets/cards/29.png',
+    fullArtImage: 'assets/cards/29.webp',
     hideFaceLabels: true,
     rarity: 'common',
     rarityMark: '◆',
@@ -187,7 +187,7 @@ const cards = [
   {
     id: 'card-090',
     name: '收藏 090',
-    fullArtImage: 'assets/cards/90.png',
+    fullArtImage: 'assets/cards/90.webp',
     hideFaceLabels: true,
     rarity: 'common',
     rarityMark: '◆',
@@ -201,7 +201,7 @@ const cards = [
   {
     id: 'card-049',
     name: '收藏 049',
-    fullArtImage: 'assets/cards/49.png',
+    fullArtImage: 'assets/cards/49.webp',
     hideFaceLabels: true,
     rarity: 'common',
     rarityMark: '◆',
@@ -215,7 +215,7 @@ const cards = [
   {
     id: 'card-025',
     name: '收藏 025',
-    fullArtImage: 'assets/cards/25.png',
+    fullArtImage: 'assets/cards/25.webp',
     hideFaceLabels: true,
     rarity: 'common',
     rarityMark: '◆',
@@ -229,7 +229,7 @@ const cards = [
   {
     id: 'card-019',
     name: '收藏 019',
-    fullArtImage: 'assets/cards/19.png',
+    fullArtImage: 'assets/cards/19.webp',
     hideFaceLabels: true,
     rarity: 'common',
     rarityMark: '◆',
@@ -243,7 +243,7 @@ const cards = [
   {
     id: 'card-041',
     name: '收藏 041',
-    fullArtImage: 'assets/cards/41.png',
+    fullArtImage: 'assets/cards/41.webp',
     hideFaceLabels: true,
     rarity: 'common',
     rarityMark: '◆',
@@ -257,7 +257,7 @@ const cards = [
   {
     id: 'card-053',
     name: '收藏 053',
-    fullArtImage: 'assets/cards/53.png',
+    fullArtImage: 'assets/cards/53.webp',
     hideFaceLabels: true,
     rarity: 'common',
     rarityMark: '◆',
@@ -271,7 +271,7 @@ const cards = [
   {
     id: 'card-089',
     name: '收藏 089',
-    fullArtImage: 'assets/cards/89.png',
+    fullArtImage: 'assets/cards/89.webp',
     hideFaceLabels: true,
     rarity: 'common',
     rarityMark: '◆',
@@ -285,7 +285,7 @@ const cards = [
   {
     id: 'card-094',
     name: '收藏 094',
-    fullArtImage: 'assets/cards/94.png',
+    fullArtImage: 'assets/cards/94.webp',
     hideFaceLabels: true,
     rarity: 'common',
     rarityMark: '◆',
@@ -299,7 +299,7 @@ const cards = [
   {
     id: 'card-059',
     name: '收藏 059',
-    fullArtImage: 'assets/cards/59.png',
+    fullArtImage: 'assets/cards/59.webp',
     hideFaceLabels: true,
     rarity: 'common',
     rarityMark: '◆',
@@ -313,7 +313,7 @@ const cards = [
   {
     id: 'card-026',
     name: '收藏 026',
-    fullArtImage: 'assets/cards/26.png',
+    fullArtImage: 'assets/cards/26.webp',
     hideFaceLabels: true,
     rarity: 'common',
     rarityMark: '◆',
@@ -327,7 +327,7 @@ const cards = [
   {
     id: 'card-015',
     name: '收藏 015',
-    fullArtImage: 'assets/cards/15.png',
+    fullArtImage: 'assets/cards/15.webp',
     hideFaceLabels: true,
     rarity: 'common',
     rarityMark: '◆',
@@ -341,7 +341,7 @@ const cards = [
   {
     id: 'card-033',
     name: '收藏 033',
-    fullArtImage: 'assets/cards/33.png',
+    fullArtImage: 'assets/cards/33.webp',
     hideFaceLabels: true,
     rarity: 'common',
     rarityMark: '◆',
@@ -355,7 +355,7 @@ const cards = [
   {
     id: 'card-085',
     name: '收藏 085',
-    fullArtImage: 'assets/cards/85.png',
+    fullArtImage: 'assets/cards/85.webp',
     hideFaceLabels: true,
     rarity: 'common',
     rarityMark: '◆',
@@ -369,7 +369,7 @@ const cards = [
   {
     id: 'card-107',
     name: '收藏 107',
-    fullArtImage: 'assets/cards/107.png',
+    fullArtImage: 'assets/cards/107.webp',
     hideFaceLabels: true,
     rarity: 'common',
     rarityMark: '◆',
@@ -383,7 +383,7 @@ const cards = [
   {
     id: 'card-048',
     name: '收藏 048',
-    fullArtImage: 'assets/cards/48.png',
+    fullArtImage: 'assets/cards/48.webp',
     hideFaceLabels: true,
     rarity: 'common',
     rarityMark: '◆',
@@ -397,7 +397,7 @@ const cards = [
   {
     id: 'card-014',
     name: '收藏 014',
-    fullArtImage: 'assets/cards/14.png',
+    fullArtImage: 'assets/cards/14.webp',
     hideFaceLabels: true,
     rarity: 'common',
     rarityMark: '◆',
@@ -411,7 +411,7 @@ const cards = [
   {
     id: 'card-098',
     name: '收藏 098',
-    fullArtImage: 'assets/cards/98.png',
+    fullArtImage: 'assets/cards/98.webp',
     hideFaceLabels: true,
     rarity: 'common',
     rarityMark: '◆',
@@ -425,7 +425,7 @@ const cards = [
   {
     id: 'card-012',
     name: '收藏 012',
-    fullArtImage: 'assets/cards/12.png',
+    fullArtImage: 'assets/cards/12.webp',
     hideFaceLabels: true,
     rarity: 'common',
     rarityMark: '◆',
@@ -439,7 +439,7 @@ const cards = [
   {
     id: 'card-046',
     name: '收藏 046',
-    fullArtImage: 'assets/cards/46.png',
+    fullArtImage: 'assets/cards/46.webp',
     hideFaceLabels: true,
     rarity: 'rare',
     rarityMark: '◆◆',
@@ -453,7 +453,7 @@ const cards = [
   {
     id: 'card-060',
     name: '收藏 060',
-    fullArtImage: 'assets/cards/60.png',
+    fullArtImage: 'assets/cards/60.webp',
     hideFaceLabels: true,
     rarity: 'rare',
     rarityMark: '◆◆',
@@ -467,7 +467,7 @@ const cards = [
   {
     id: 'card-092',
     name: '收藏 092',
-    fullArtImage: 'assets/cards/92.png',
+    fullArtImage: 'assets/cards/92.webp',
     hideFaceLabels: true,
     rarity: 'rare',
     rarityMark: '◆◆',
@@ -481,7 +481,7 @@ const cards = [
   {
     id: 'card-020',
     name: '收藏 020',
-    fullArtImage: 'assets/cards/20.png',
+    fullArtImage: 'assets/cards/20.webp',
     hideFaceLabels: true,
     rarity: 'rare',
     rarityMark: '◆◆',
@@ -495,7 +495,7 @@ const cards = [
   {
     id: 'card-040',
     name: '收藏 040',
-    fullArtImage: 'assets/cards/40.png',
+    fullArtImage: 'assets/cards/40.webp',
     hideFaceLabels: true,
     rarity: 'rare',
     rarityMark: '◆◆',
@@ -509,7 +509,7 @@ const cards = [
   {
     id: 'card-078',
     name: '收藏 078',
-    fullArtImage: 'assets/cards/78.png',
+    fullArtImage: 'assets/cards/78.webp',
     hideFaceLabels: true,
     rarity: 'rare',
     rarityMark: '◆◆',
@@ -523,7 +523,7 @@ const cards = [
   {
     id: 'card-067',
     name: '收藏 067',
-    fullArtImage: 'assets/cards/67.png',
+    fullArtImage: 'assets/cards/67.webp',
     hideFaceLabels: true,
     rarity: 'rare',
     rarityMark: '◆◆',
@@ -537,7 +537,7 @@ const cards = [
   {
     id: 'card-105',
     name: '收藏 105',
-    fullArtImage: 'assets/cards/105.png',
+    fullArtImage: 'assets/cards/105.webp',
     hideFaceLabels: true,
     rarity: 'rare',
     rarityMark: '◆◆',
@@ -551,7 +551,7 @@ const cards = [
   {
     id: 'card-102',
     name: '收藏 102',
-    fullArtImage: 'assets/cards/102.png',
+    fullArtImage: 'assets/cards/102.webp',
     hideFaceLabels: true,
     rarity: 'rare',
     rarityMark: '◆◆',
@@ -565,7 +565,7 @@ const cards = [
   {
     id: 'card-035',
     name: '收藏 035',
-    fullArtImage: 'assets/cards/35.png',
+    fullArtImage: 'assets/cards/35.webp',
     hideFaceLabels: true,
     rarity: 'rare',
     rarityMark: '◆◆',
@@ -579,7 +579,7 @@ const cards = [
   {
     id: 'card-088',
     name: '收藏 088',
-    fullArtImage: 'assets/cards/88.png',
+    fullArtImage: 'assets/cards/88.webp',
     hideFaceLabels: true,
     rarity: 'rare',
     rarityMark: '◆◆',
@@ -593,7 +593,7 @@ const cards = [
   {
     id: 'card-083',
     name: '收藏 083',
-    fullArtImage: 'assets/cards/83.png',
+    fullArtImage: 'assets/cards/83.webp',
     hideFaceLabels: true,
     rarity: 'rare',
     rarityMark: '◆◆',
@@ -607,7 +607,7 @@ const cards = [
   {
     id: 'card-021',
     name: '收藏 021',
-    fullArtImage: 'assets/cards/21.png',
+    fullArtImage: 'assets/cards/21.webp',
     hideFaceLabels: true,
     rarity: 'rare',
     rarityMark: '◆◆',
@@ -621,7 +621,7 @@ const cards = [
   {
     id: 'card-044',
     name: '收藏 044',
-    fullArtImage: 'assets/cards/44.png',
+    fullArtImage: 'assets/cards/44.webp',
     hideFaceLabels: true,
     rarity: 'rare',
     rarityMark: '◆◆',
@@ -635,7 +635,7 @@ const cards = [
   {
     id: 'card-093',
     name: '收藏 093',
-    fullArtImage: 'assets/cards/93.png',
+    fullArtImage: 'assets/cards/93.webp',
     hideFaceLabels: true,
     rarity: 'rare',
     rarityMark: '◆◆',
@@ -649,7 +649,7 @@ const cards = [
   {
     id: 'card-091',
     name: '收藏 091',
-    fullArtImage: 'assets/cards/91.png',
+    fullArtImage: 'assets/cards/91.webp',
     hideFaceLabels: true,
     rarity: 'rare',
     rarityMark: '◆◆',
@@ -663,7 +663,7 @@ const cards = [
   {
     id: 'card-058',
     name: '收藏 058',
-    fullArtImage: 'assets/cards/58.png',
+    fullArtImage: 'assets/cards/58.webp',
     hideFaceLabels: true,
     rarity: 'rare',
     rarityMark: '◆◆',
@@ -677,7 +677,7 @@ const cards = [
   {
     id: 'card-055',
     name: '收藏 055',
-    fullArtImage: 'assets/cards/55.png',
+    fullArtImage: 'assets/cards/55.webp',
     hideFaceLabels: true,
     rarity: 'rare',
     rarityMark: '◆◆',
@@ -691,7 +691,7 @@ const cards = [
   {
     id: 'card-043',
     name: '收藏 043',
-    fullArtImage: 'assets/cards/43.png',
+    fullArtImage: 'assets/cards/43.webp',
     hideFaceLabels: true,
     rarity: 'rare',
     rarityMark: '◆◆',
@@ -705,7 +705,7 @@ const cards = [
   {
     id: 'card-016',
     name: '收藏 016',
-    fullArtImage: 'assets/cards/16.png',
+    fullArtImage: 'assets/cards/16.webp',
     hideFaceLabels: true,
     rarity: 'rare',
     rarityMark: '◆◆',
@@ -719,7 +719,7 @@ const cards = [
   {
     id: 'card-065',
     name: '收藏 065',
-    fullArtImage: 'assets/cards/65.png',
+    fullArtImage: 'assets/cards/65.webp',
     hideFaceLabels: true,
     rarity: 'rare',
     rarityMark: '◆◆',
@@ -733,7 +733,7 @@ const cards = [
   {
     id: 'card-027',
     name: '收藏 027',
-    fullArtImage: 'assets/cards/27.png',
+    fullArtImage: 'assets/cards/27.webp',
     hideFaceLabels: true,
     rarity: 'rare',
     rarityMark: '◆◆',
@@ -747,7 +747,7 @@ const cards = [
   {
     id: 'card-056',
     name: '收藏 056',
-    fullArtImage: 'assets/cards/56.png',
+    fullArtImage: 'assets/cards/56.webp',
     hideFaceLabels: true,
     rarity: 'holo',
     rarityMark: '◆◆◆',
@@ -761,7 +761,7 @@ const cards = [
   {
     id: 'card-108',
     name: '收藏 108',
-    fullArtImage: 'assets/cards/108.png',
+    fullArtImage: 'assets/cards/108.webp',
     hideFaceLabels: true,
     rarity: 'holo',
     rarityMark: '◆◆◆',
@@ -775,7 +775,7 @@ const cards = [
   {
     id: 'card-032',
     name: '收藏 032',
-    fullArtImage: 'assets/cards/32.png',
+    fullArtImage: 'assets/cards/32.webp',
     hideFaceLabels: true,
     rarity: 'holo',
     rarityMark: '◆◆◆',
@@ -789,7 +789,7 @@ const cards = [
   {
     id: 'card-050',
     name: '收藏 050',
-    fullArtImage: 'assets/cards/50.png',
+    fullArtImage: 'assets/cards/50.webp',
     hideFaceLabels: true,
     rarity: 'holo',
     rarityMark: '◆◆◆',
@@ -803,7 +803,7 @@ const cards = [
   {
     id: 'card-104',
     name: '收藏 104',
-    fullArtImage: 'assets/cards/104.png',
+    fullArtImage: 'assets/cards/104.webp',
     hideFaceLabels: true,
     rarity: 'holo',
     rarityMark: '◆◆◆',
@@ -817,7 +817,7 @@ const cards = [
   {
     id: 'card-100',
     name: '收藏 100',
-    fullArtImage: 'assets/cards/100.png',
+    fullArtImage: 'assets/cards/100.webp',
     hideFaceLabels: true,
     rarity: 'holo',
     rarityMark: '◆◆◆',
@@ -831,7 +831,7 @@ const cards = [
   {
     id: 'card-030',
     name: '收藏 030',
-    fullArtImage: 'assets/cards/30.png',
+    fullArtImage: 'assets/cards/30.webp',
     hideFaceLabels: true,
     rarity: 'holo',
     rarityMark: '◆◆◆',
@@ -845,7 +845,7 @@ const cards = [
   {
     id: 'card-106',
     name: '收藏 106',
-    fullArtImage: 'assets/cards/106.png',
+    fullArtImage: 'assets/cards/106.webp',
     hideFaceLabels: true,
     rarity: 'holo',
     rarityMark: '◆◆◆',
@@ -859,7 +859,7 @@ const cards = [
   {
     id: 'card-017',
     name: '收藏 017',
-    fullArtImage: 'assets/cards/17.png',
+    fullArtImage: 'assets/cards/17.webp',
     hideFaceLabels: true,
     rarity: 'holo',
     rarityMark: '◆◆◆',
@@ -873,7 +873,7 @@ const cards = [
   {
     id: 'card-037',
     name: '收藏 037',
-    fullArtImage: 'assets/cards/37.png',
+    fullArtImage: 'assets/cards/37.webp',
     hideFaceLabels: true,
     rarity: 'holo',
     rarityMark: '◆◆◆',
@@ -887,7 +887,7 @@ const cards = [
   {
     id: 'card-022',
     name: '收藏 022',
-    fullArtImage: 'assets/cards/22.png',
+    fullArtImage: 'assets/cards/22.webp',
     hideFaceLabels: true,
     rarity: 'ultra',
     rarityMark: '★★★',
@@ -901,7 +901,7 @@ const cards = [
   {
     id: 'card-013',
     name: '收藏 013',
-    fullArtImage: 'assets/cards/13.png',
+    fullArtImage: 'assets/cards/13.webp',
     hideFaceLabels: true,
     rarity: 'ultra',
     rarityMark: '★★★',
@@ -915,7 +915,7 @@ const cards = [
   {
     id: 'card-042',
     name: '收藏 042',
-    fullArtImage: 'assets/cards/42.png',
+    fullArtImage: 'assets/cards/42.webp',
     hideFaceLabels: true,
     rarity: 'ultra',
     rarityMark: '★★★',
@@ -929,7 +929,7 @@ const cards = [
   {
     id: 'card-031',
     name: '收藏 031',
-    fullArtImage: 'assets/cards/31.png',
+    fullArtImage: 'assets/cards/31.webp',
     hideFaceLabels: true,
     rarity: 'ultra',
     rarityMark: '★★★',
@@ -943,7 +943,7 @@ const cards = [
   {
     id: 'card-024',
     name: '收藏 024',
-    fullArtImage: 'assets/cards/24.png',
+    fullArtImage: 'assets/cards/24.webp',
     hideFaceLabels: true,
     rarity: 'ultra',
     rarityMark: '★★★',
@@ -957,7 +957,7 @@ const cards = [
   {
     id: 'card-103',
     name: '收藏 103',
-    fullArtImage: 'assets/cards/103.png',
+    fullArtImage: 'assets/cards/103.webp',
     hideFaceLabels: true,
     rarity: 'ultra',
     rarityMark: '★★★',
@@ -971,7 +971,7 @@ const cards = [
   {
     id: 'card-097',
     name: '收藏 097',
-    fullArtImage: 'assets/cards/97.png',
+    fullArtImage: 'assets/cards/97.webp',
     hideFaceLabels: true,
     rarity: 'ultra',
     rarityMark: '★★★',
@@ -985,7 +985,7 @@ const cards = [
   {
     id: 'card-001',
     name: '收藏 001',
-    fullArtImage: 'assets/cards/1.png',
+    fullArtImage: 'assets/cards/1.webp',
     hideFaceLabels: true,
     rarity: 'ultra',
     rarityMark: '★★★',
@@ -999,7 +999,7 @@ const cards = [
   {
     id: 'card-082',
     name: '收藏 082',
-    fullArtImage: 'assets/cards/82.png',
+    fullArtImage: 'assets/cards/82.webp',
     hideFaceLabels: true,
     rarity: 'ultra',
     rarityMark: '★★★',
@@ -1013,7 +1013,7 @@ const cards = [
   {
     id: 'card-018',
     name: '收藏 018',
-    fullArtImage: 'assets/cards/18.png',
+    fullArtImage: 'assets/cards/18.webp',
     hideFaceLabels: true,
     rarity: 'ultra',
     rarityMark: '★★★',
@@ -1027,7 +1027,7 @@ const cards = [
   {
     id: 'card-066',
     name: '收藏 066',
-    fullArtImage: 'assets/cards/66.png',
+    fullArtImage: 'assets/cards/66.webp',
     hideFaceLabels: true,
     rarity: 'secret',
     rarityMark: '✦✦✦',
@@ -1041,7 +1041,7 @@ const cards = [
   {
     id: 'card-063',
     name: '收藏 063',
-    fullArtImage: 'assets/cards/63.png',
+    fullArtImage: 'assets/cards/63.webp',
     hideFaceLabels: true,
     rarity: 'secret',
     rarityMark: '✦✦✦',
@@ -1055,7 +1055,7 @@ const cards = [
   {
     id: 'card-061',
     name: '收藏 061',
-    fullArtImage: 'assets/cards/61.png',
+    fullArtImage: 'assets/cards/61.webp',
     hideFaceLabels: true,
     rarity: 'secret',
     rarityMark: '✦✦✦',
@@ -1069,7 +1069,7 @@ const cards = [
   {
     id: 'card-028',
     name: '收藏 028',
-    fullArtImage: 'assets/cards/28.png',
+    fullArtImage: 'assets/cards/28.webp',
     hideFaceLabels: true,
     rarity: 'secret',
     rarityMark: '✦✦✦',
@@ -1083,7 +1083,7 @@ const cards = [
   {
     id: 'card-075',
     name: '收藏 075',
-    fullArtImage: 'assets/cards/75.png',
+    fullArtImage: 'assets/cards/75.webp',
     hideFaceLabels: true,
     rarity: 'secret',
     rarityMark: '✦✦✦',
@@ -1097,7 +1097,7 @@ const cards = [
   {
     id: 'card-039',
     name: '收藏 039',
-    fullArtImage: 'assets/cards/39.png',
+    fullArtImage: 'assets/cards/39.webp',
     hideFaceLabels: true,
     rarity: 'secret',
     rarityMark: '✦✦✦',
@@ -1111,7 +1111,7 @@ const cards = [
   {
     id: 'card-099',
     name: '收藏 099',
-    fullArtImage: 'assets/cards/99.png',
+    fullArtImage: 'assets/cards/99.webp',
     hideFaceLabels: true,
     rarity: 'secret',
     rarityMark: '✦✦✦',
@@ -1125,7 +1125,7 @@ const cards = [
   {
     id: 'card-054',
     name: '收藏 054',
-    fullArtImage: 'assets/cards/54.png',
+    fullArtImage: 'assets/cards/54.webp',
     hideFaceLabels: true,
     rarity: 'secret',
     rarityMark: '✦✦✦',
@@ -1139,7 +1139,7 @@ const cards = [
   {
     id: 'card-052',
     name: '收藏 052',
-    fullArtImage: 'assets/cards/52.png',
+    fullArtImage: 'assets/cards/52.webp',
     hideFaceLabels: true,
     rarity: 'secret',
     rarityMark: '✦✦✦',
@@ -1153,7 +1153,7 @@ const cards = [
   {
     id: 'card-036',
     name: '收藏 036',
-    fullArtImage: 'assets/cards/36.png',
+    fullArtImage: 'assets/cards/36.webp',
     hideFaceLabels: true,
     rarity: 'secret',
     rarityMark: '✦✦✦',
