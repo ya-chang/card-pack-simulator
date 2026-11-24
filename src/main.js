@@ -1499,7 +1499,7 @@ function renderBinderGrid() {
       <div class="binder-art">
         ${foilTag}
         ${countTag}
-        <img src="${def.fullArtImage ?? def.character.image}" alt="" loading="lazy" decoding="async">
+        <img src="${def.fullArtImage ?? def.character.image}" alt="" onerror="this.onerror=null;this.src='data:image/svg+xml;utf8,'+encodeURIComponent('<svg xmlns=%22http://www.w3.org/2000/svg%22 width=%22300%22 height=%22420%22><rect width=%22100%25%22 height=%22100%25%22 fill=%22%231a1d2b%22/><text x=%2250%25%22 y=%2250%25%22 text-anchor=%22middle%22 fill=%22%23555%22 font-size=%2220%22 font-family=%22sans-serif%22>NO IMAGE</text></svg>')">
       </div>
       <div class="binder-plaque">
         <span class="binder-meta-name">${unlocked ? cardLabel : 'UNREVEALED'}</span>
